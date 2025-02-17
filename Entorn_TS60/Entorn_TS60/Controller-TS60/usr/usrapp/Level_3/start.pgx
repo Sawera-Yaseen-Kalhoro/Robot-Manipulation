@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="start" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+  userPage()
+  // Clearing the User page
+  cls()
+  putln("Starting the program")
+  // Enable the Robot Power
+  enablePower()
+  // Set Maximum Speed to 30%
+  mNomSpeed.vel=30
+  // Linking the io variables
+  dioLink(suction[0],io:bOut0)
+  dioLink(blow[0],io:bOut1)
+  dioLink(conveyor[0],io:bOut2)
+  dioLink(actuator1[0],io:bOut3)
+  dioLink(actuator2[0],io:bOut4)
+  dioLink(Barrier[0],io:bOut5)
+  
+  dioLink(presencesensor2[0],io:bIn1)
+  dioLink(inductivesensor[0],io:bIn2)
+  dioLink(presencesensor1[0],io:bIn3)
+  dioLink(presencesensor3[0],io:bIn4)
+  
+  // Starting the Conveyor 
+  conveyor[0] = true
+  delay(3)
+  
+  // Implementing Metal, Non-Metal Classification
+  while presencesensor1[0] == true or presencesensor2[0] == true
+    actuator1[0] = false
+    actuator2[0] = false
+    Barrier[0] = false
+    
+    if presencesensor2[0] == true
+      conveyor[0] = false
+      delay(1)
+      
+      if inductivesensor[0] == true
+        Barrier[0] = true
+        conveyor[0] = true
+        actuator1[0] = false
+        actuator2[0] = true
+        delay(0.35)
+        Barrier[0] = false
+        delay(3)
+        conveyor[0] = false
+        actuator1[0]=false
+        actuator2[0]=false
+      elseIf inductivesensor[0] == false
+        Barrier[0] = true
+        conveyor[0] = true
+        actuator1[0]= true
+        actuator2[0]= false
+        delay(0.35)
+        Barrier[0]=false
+        delay(1)
+        conveyor[0] = false
+        actuator1[0]= false
+        actuator2[0]= false
+        
+      endIf
+    endIf
+    delay(1)
+  endWhile
+  
+  
+  // Pick and place operation for metal and non-metals
+  for i=0 to 3 step 1
+    suction = false
+    blow = false
+    
+    movej(appro(metalpick[0],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    movel(metalpick[0],tool0[0],mNomSpeed)
+    waitEndMove()
+    suction = true
+    blow = false
+    delay(1)
+    movel(appro(metalpick[0],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    putln("Picked the metallic cylinder")
+    
+    movej(appro(metalplace[i],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    movel(metalplace[i],tool0[0],mNomSpeed)
+    waitEndMove()
+    suction = false
+    blow = true
+    delay(1)
+    movel(appro(metalplace[i],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    putln("Placed the metallic cylinder")
+    
+    suction = false
+    blow = false
+    movej(appro(nonmetalpick[0],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    movel(nonmetalpick[0],tool0[0],mNomSpeed)
+    waitEndMove()
+    suction = true
+    blow = false
+    delay(1)
+    movel(appro(nonmetalpick[0],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    putln("Picked the non-metallic Cylinder")
+    
+    movej(appro(nonmetalplace[i],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    movel(nonmetalplace[i],tool0[0],mNomSpeed)
+    waitEndMove()
+    suction = false
+    blow = true
+    delay(1)
+    movel(appro(nonmetalplace[i],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    putln("Placed the non-metallic cylinder")
+  endFor
+end
+            </code>
+    </source>
+  </program>
+</programList>

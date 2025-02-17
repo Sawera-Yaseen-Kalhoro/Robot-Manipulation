@@ -1,0 +1,645 @@
+﻿[03/07/21 20:55:33]: -----------------------------------------------
+[03/07/21 20:55:33]: Logger started
+[03/07/21 20:55:37]: Unknown event:Communication established
+[03/07/21 20:55:38]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[03/07/21 20:55:38]: Cycle time set to 0.004s
+[03/07/21 20:55:38]: Simulation cycle time set to 0.1s
+[03/07/21 20:55:38]: Controller IP address could not be updated
+[03/07/21 20:55:38]: STARC : No STARC board detected on PCI.
+[03/07/21 20:55:38]: Mcp = TSimulated
+[03/07/21 20:55:38]: Power shutdown delay set to 0 s
+[03/07/21 20:55:38]: Gravity (x y z): 0         0        -9.81
+[03/07/21 20:55:38]: Power hour count = 0:00:00
+[03/07/21 20:55:38]: Mac Address = 08-00-27-81-b0-96
+[03/07/21 20:55:38]: Working mode:invalid.
+[03/07/21 20:55:38]: COM-PC: server created on all interfaces [5653]
+[03/07/21 20:55:38]: VAL3: s6.8 Feb  9 2010
+[03/07/21 20:55:38]: Option testMode: demo 
+[03/07/21 20:55:38]: Configuration Version: D24266415A 
+[03/07/21 20:55:38]: Machine Number: ? 
+[03/07/21 20:55:38]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[03/07/21 20:55:38]: Arm serial number: ? 
+[03/07/21 20:55:38]: EP: s6.8 Feb  3 2010
+[03/07/21 20:55:38]: SCA: s6.8 Feb  3 2010
+[03/07/21 20:55:38]: PLC: s6.8 Feb  3 2010
+[03/07/21 20:55:38]: New profile : default
+[03/07/21 20:55:38]: Working mode:manual.
+[03/07/21 20:55:38]: End of arm power shutdown phase.
+[03/07/21 20:55:38]: COM-PC: create session 127.0.0.1 on port 49947 id=#33511472
+[03/07/21 20:55:41]: Settling arm power...
+[03/07/21 20:55:42]: Arm power settled.
+[03/07/21 20:55:42]: Unknown event:motion generator activated
+[03/07/21 20:55:57]: COM-PC: destroy session 127.0.0.1 on port 49947 id=#33511472
+[03/07/21 20:56:05]: Manual motion mode:Point
+[03/07/21 20:56:05]: Unknown event:motion generator desactivated
+[03/07/21 20:56:05]: Unknown event:motion generator activated
+[03/07/21 20:56:39]: COM-PC: create session 127.0.0.1 on port 49954 id=#33511368
+[03/07/21 20:56:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:56:53]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 20:56:53]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:56:55]: System event INTERFACE-Stopped  (Jog Interface). 19 events lost.
+[03/07/21 20:57:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:57:12]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 20:57:28]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:57:29]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 20:57:40]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:57:41]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 20:57:52]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:57:53]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 20:58:07]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:58:07]: System event INTERFACE-Stopped  (Jog Interface). 2 events lost.
+[03/07/21 20:58:17]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:58:17]: System event INTERFACE-Stopped  (Jog Interface). 2 events lost.
+[03/07/21 20:58:41]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:58:42]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 20:58:55]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:59:01]: System event INTERFACE-Stopped  (Jog Interface). 23 events lost.
+[03/07/21 20:59:06]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:59:08]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 20:59:49]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 20:59:50]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 20:59:57]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:00:02]: System event INTERFACE-Stopped  (Jog Interface). 23 events lost.
+[03/07/21 21:00:08]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:00:10]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 21:00:20]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:00:23]: System event INTERFACE-Stopped  (Jog Interface). 11 events lost.
+[03/07/21 21:00:34]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:00:35]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:00:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:00:52]: System event INTERFACE-Stopped  (Jog Interface). 22 events lost.
+[03/07/21 21:01:10]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:12]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 21:01:22]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:22]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:01:28]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:30]: System event INTERFACE-Stopped  (Jog Interface). 11 events lost.
+[03/07/21 21:01:36]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:36]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:01:42]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:44]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 21:01:50]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:01:51]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:02:07]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:02:12]: System event INTERFACE-Stopped  (Jog Interface). 21 events lost.
+[03/07/21 21:02:17]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:02:21]: System event INTERFACE-Stopped  (Jog Interface). 18 events lost.
+[03/07/21 21:02:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:02:37]: System event INTERFACE-Stopped  (Jog Interface). 13 events lost.
+[03/07/21 21:02:42]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:02:45]: System event INTERFACE-Stopped  (Jog Interface). 17 events lost.
+[03/07/21 21:02:51]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:02:53]: System event INTERFACE-Stopped  (Jog Interface). 15 events lost.
+[03/07/21 21:02:58]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:02]: System event INTERFACE-Stopped  (Jog Interface). 18 events lost.
+[03/07/21 21:03:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:11]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:03:16]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:16]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:03:22]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:24]: System event INTERFACE-Stopped  (Jog Interface). 9 events lost.
+[03/07/21 21:03:29]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:31]: System event INTERFACE-Stopped  (Jog Interface). 13 events lost.
+[03/07/21 21:03:36]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:38]: System event INTERFACE-Stopped  (Jog Interface). 14 events lost.
+[03/07/21 21:03:43]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:03:43]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:03:58]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:04:00]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:04:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:04:12]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:04:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:04:24]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:04:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:04:36]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:04:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:04:48]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:04:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:05:00]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:05:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:05:12]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:05:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:05:24]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:05:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:05:36]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:05:48]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:05:49]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:05:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:06:00]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:06:10]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:06:11]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:06:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:06:24]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:06:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:06:36]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:06:48]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:06:48]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:06:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:07:00]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:07:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:07:12]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:07:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:07:24]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:07:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:07:36]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:07:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:07:48]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 21:08:00]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:01]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:08:12]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:13]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:08:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:24]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:08:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:35]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:08:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:48]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:08:58]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:08:59]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:09:10]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:09:10]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:09:22]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:09:23]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:09:34]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:09:34]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:09:46]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:09:47]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:09:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:09:59]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:10:10]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:10:10]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:10:21]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:10:22]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:10:34]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:10:35]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:10:46]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:10:51]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:10:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:10:59]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:11:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:11:11]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:11:22]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:11:22]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:11:34]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:11:34]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:11:50]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:11:51]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 21:11:56]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:02]: System event INTERFACE-Stopped  (Jog Interface). 28 events lost.
+[03/07/21 21:12:07]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:09]: System event INTERFACE-Stopped  (Jog Interface). 11 events lost.
+[03/07/21 21:12:14]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:16]: System event INTERFACE-Stopped  (Jog Interface). 9 events lost.
+[03/07/21 21:12:23]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:25]: System event INTERFACE-Stopped  (Jog Interface). 12 events lost.
+[03/07/21 21:12:30]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:31]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:12:37]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:12:39]: System event INTERFACE-Stopped  (Jog Interface). 13 events lost.
+[03/07/21 21:13:10]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:13:12]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 21:13:20]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:13:22]: System event INTERFACE-Stopped  (Jog Interface). 9 events lost.
+[03/07/21 21:13:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:14:01]: System event INTERFACE-Stopped  (Jog Interface). 15 events lost.
+[03/07/21 21:14:14]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:14:15]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:14:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:14:48]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:14:58]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:14:58]: System event INTERFACE-Stopped  (Jog Interface). 4 events lost.
+[03/07/21 21:15:49]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:15:50]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:16:05]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:16:06]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:16:24]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:16:24]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:16:35]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:16:36]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:16:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:16:48]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:16:55]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:16:56]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 21:17:08]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:17:08]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:17:16]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:17:16]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:18:04]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:18:07]: System event INTERFACE-Stopped  (Jog Interface). 14 events lost.
+[03/07/21 21:18:12]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:18:12]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:18:32]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:18:36]: System event INTERFACE-Stopped  (Jog Interface). 17 events lost.
+[03/07/21 21:18:45]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:18:48]: System event INTERFACE-Stopped  (Jog Interface). 12 events lost.
+[03/07/21 21:18:52]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:18:53]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:19:03]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:19:07]: System event INTERFACE-Stopped  (Jog Interface). 20 events lost.
+[03/07/21 21:19:22]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:19:24]: System event INTERFACE-Stopped  (Jog Interface). 13 events lost.
+[03/07/21 21:19:30]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:19:30]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:19:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:19:48]: System event INTERFACE-Stopped  (Jog Interface). 9 events lost.
+[03/07/21 21:20:04]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:20:05]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 21:20:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:20:12]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 21:20:17]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:20:17]: System event INTERFACE-Stopped  (Jog Interface). 3 events lost.
+[03/07/21 21:21:08]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:21:09]: System event INTERFACE-Stopped  (Jog Interface). 7 events lost.
+[03/07/21 21:21:33]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 21:21:33]: System event INTERFACE-Stopped  (Jog Interface). 1 events lost.
+[03/07/21 21:25:55]: Saving controller context...
+[03/07/21 21:25:55]: Controller temperature: 28°C
+[03/07/21 21:25:55]: CPU temperature: 28°C
+[03/07/21 21:55:58]: Saving controller context...
+[03/07/21 22:26:00]: Saving controller context... (1)
+[03/07/21 22:29:09]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:29:13]: System event INTERFACE-Stopped  (Jog Interface). 19 events lost.
+[03/07/21 22:29:17]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:29:19]: System event INTERFACE-Stopped  (Jog Interface). 10 events lost.
+[03/07/21 22:29:30]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:29:31]: System event INTERFACE-Stopped  (Jog Interface). 6 events lost.
+[03/07/21 22:29:37]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:29:38]: System event INTERFACE-Stopped  (Jog Interface). 5 events lost.
+[03/07/21 22:29:47]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:29:53]: System event INTERFACE-Stopped  (Jog Interface). 20 events lost.
+[03/07/21 22:29:59]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:30:00]: System event INTERFACE-Stopped  (Jog Interface). 8 events lost.
+[03/07/21 22:30:11]: System event INTERFACE-Stopped  (Jog Interface)
+[03/07/21 22:30:15]: System event INTERFACE-Stopped  (Jog Interface). 16 events lost.
+[03/07/21 22:30:23]: COM-PC: create session 127.0.0.1 on port 51904 id=#33511992
+[11/15/23 19:33:33]: -----------------------------------------------
+[11/15/23 19:33:33]: Logger started
+[11/15/23 19:33:37]: Unknown event:Communication established
+[11/15/23 19:33:38]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/15/23 19:33:38]: Cycle time set to 0.004s
+[11/15/23 19:33:38]: Simulation cycle time set to 0.1s
+[11/15/23 19:33:38]: Controller IP address could not be updated
+[11/15/23 19:33:38]: STARC : No STARC board detected on PCI.
+[11/15/23 19:33:38]: Mcp = TSimulated
+[11/15/23 19:33:38]: Power shutdown delay set to 0 s
+[11/15/23 19:33:38]: Gravity (x y z): 0         0        -9.81
+[11/15/23 19:33:38]: Power hour count = 0:00:00
+[11/15/23 19:33:38]: Mac Address = 00-45-e2-5c-9f-71
+[11/15/23 19:33:38]: Working mode:invalid.
+[11/15/23 19:33:38]: COM-PC: server created on all interfaces [5653]
+[11/15/23 19:33:38]: VAL3: s6.8 Feb  9 2010
+[11/15/23 19:33:38]: Option testMode: demo 
+[11/15/23 19:33:38]: Configuration Version: D24266415A 
+[11/15/23 19:33:38]: Machine Number: ? 
+[11/15/23 19:33:38]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/15/23 19:33:38]: Arm serial number: ? 
+[11/15/23 19:33:38]: EP: s6.8 Feb  3 2010
+[11/15/23 19:33:38]: SCA: s6.8 Feb  3 2010
+[11/15/23 19:33:38]: PLC: s6.8 Feb  3 2010
+[11/15/23 19:33:38]: New profile : default
+[11/15/23 19:33:38]: End of arm power shutdown phase.
+[11/15/23 19:33:38]: Working mode:manual.
+[11/15/23 19:33:39]: COM-PC: create session 127.0.0.1 on port 55549 id=#61286248
+[11/15/23 19:33:52]: (File start.pgx-line 12) 'actuato2' : invalid name
+[11/15/23 19:33:52]: (File start.pgx-line 70) ',Tool[0],mNomSp...' : too many parameters
+[11/15/23 19:33:52]: (File start.pgx-line 87) ',Tool[0],mNomSp...' : too many parameters
+[11/15/23 19:33:52]: (File start.pgx-line 94) ',Tool[0],mNomSp...' : too many parameters
+[11/15/23 19:33:52]: (File start.pgx-line 98) ',Tool[0],mNomSp...' : too many parameters
+[11/15/23 19:33:52]: (File start.pgx-line 105) ',Tool[0],mNomSp...' : too many parameters
+[11/15/23 20:21:43]: -----------------------------------------------
+[11/15/23 20:21:43]: Logger started
+[11/15/23 20:21:48]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/15/23 20:21:48]: Cycle time set to 0.004s
+[11/15/23 20:21:48]: Simulation cycle time set to 0.1s
+[11/15/23 20:21:48]: Controller IP address could not be updated
+[11/15/23 20:21:48]: STARC : No STARC board detected on PCI.
+[11/15/23 20:21:48]: Power shutdown delay set to 0 s
+[11/15/23 20:21:48]: Gravity (x y z): 0         0        -9.81
+[11/15/23 20:21:48]: Power hour count = 0:00:00
+[11/15/23 20:21:48]: Mac Address = 00-45-e2-5c-9f-71
+[11/15/23 20:21:48]: COM-PC: server created on all interfaces [5653]
+[11/15/23 20:21:48]: VAL3: s6.8 Feb  9 2010
+[11/15/23 20:21:48]: Option testMode: demo 
+[11/15/23 20:21:48]: Configuration Version: D24266415A 
+[11/15/23 20:21:48]: Machine Number: ? 
+[11/15/23 20:21:48]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/15/23 20:21:48]: Arm serial number: ? 
+[11/15/23 20:21:48]: EP: s6.8 Feb  3 2010
+[11/15/23 20:21:48]: SCA: s6.8 Feb  3 2010
+[11/15/23 20:21:48]: PLC: s6.8 Feb  3 2010
+[11/15/23 20:21:48]: New profile : default
+[11/15/23 20:21:48]: COM-PC: create session 127.0.0.1 on port 55975 id=#60441736
+[11/15/23 20:21:49]: End of arm power shutdown phase.
+[11/15/23 20:21:50]: Unknown event:No answer
+[11/15/23 20:21:57]: MCP communication disconnected
+[11/15/23 20:21:58]: Mcp = TSimulated
+[11/15/23 20:21:58]: Unknown event:Communication established
+[11/15/23 20:21:59]: Working mode:manual.
+[11/15/23 20:22:12]: Settling arm power...
+[11/15/23 20:22:13]: Arm power settled.
+[11/15/23 20:22:13]: Unknown event:motion generator activated
+[11/15/23 20:22:16]: Level_3 application started
+[11/15/23 20:22:16]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/15/23 20:22:30]: ERR 154 Invalid movement command: invalid destination point or mdesc.
+[11/15/23 20:25:51]: -----------------------------------------------
+[11/15/23 20:25:51]: Logger started
+[11/15/23 20:25:55]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/15/23 20:25:55]: Cycle time set to 0.004s
+[11/15/23 20:25:55]: Simulation cycle time set to 0.1s
+[11/15/23 20:25:55]: Controller IP address could not be updated
+[11/15/23 20:25:55]: STARC : No STARC board detected on PCI.
+[11/15/23 20:25:55]: Power shutdown delay set to 0 s
+[11/15/23 20:25:55]: Gravity (x y z): 0         0        -9.81
+[11/15/23 20:25:55]: Power hour count = 0:00:00
+[11/15/23 20:25:55]: Mac Address = 00-45-e2-5c-9f-71
+[11/15/23 20:25:55]: COM-PC: server created on all interfaces [5653]
+[11/15/23 20:25:55]: VAL3: s6.8 Feb  9 2010
+[11/15/23 20:25:55]: Option testMode: demo 
+[11/15/23 20:25:55]: Configuration Version: D24266415A 
+[11/15/23 20:25:55]: Machine Number: ? 
+[11/15/23 20:25:55]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/15/23 20:25:55]: Arm serial number: ? 
+[11/15/23 20:25:55]: EP: s6.8 Feb  3 2010
+[11/15/23 20:25:55]: SCA: s6.8 Feb  3 2010
+[11/15/23 20:25:55]: PLC: s6.8 Feb  3 2010
+[11/15/23 20:25:55]: New profile : default
+[11/15/23 20:25:55]: COM-PC: create session 127.0.0.1 on port 56013 id=#61603104
+[11/15/23 20:25:56]: End of arm power shutdown phase.
+[11/15/23 20:25:57]: Unknown event:No answer
+[11/15/23 20:26:04]: MCP communication disconnected
+[11/15/23 20:26:05]: Mcp = TSimulated
+[11/15/23 20:26:05]: Unknown event:Communication established
+[11/15/23 20:26:06]: Working mode:manual.
+[11/15/23 20:26:46]: Settling arm power...
+[11/15/23 20:26:47]: Arm power settled.
+[11/15/23 20:26:47]: Unknown event:motion generator activated
+[11/15/23 20:26:52]: Level_3 application started
+[11/15/23 20:26:52]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/15/23 20:27:02]: ERR 154 Invalid movement command: invalid destination point or mdesc.
+[11/15/23 20:29:54]: MCP communication disconnected
+[11/15/23 20:29:54]: Arm power shutdown: working mode change.
+[11/15/23 20:29:54]: Arm power shutdown...
+[11/15/23 20:29:54]: Unknown event:motion generator desactivated
+[11/15/23 20:34:28]: -----------------------------------------------
+[11/15/23 20:34:28]: Logger started
+[11/15/23 20:34:33]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/15/23 20:34:33]: Cycle time set to 0.004s
+[11/15/23 20:34:33]: Simulation cycle time set to 0.1s
+[11/15/23 20:34:33]: Controller IP address could not be updated
+[11/15/23 20:34:33]: STARC : No STARC board detected on PCI.
+[11/15/23 20:34:33]: Power shutdown delay set to 0 s
+[11/15/23 20:34:33]: Gravity (x y z): 0         0        -9.81
+[11/15/23 20:34:33]: Power hour count = 0:00:00
+[11/15/23 20:34:33]: Mac Address = 00-45-e2-5c-9f-71
+[11/15/23 20:34:33]: COM-PC: server created on all interfaces [5653]
+[11/15/23 20:34:33]: VAL3: s6.8 Feb  9 2010
+[11/15/23 20:34:33]: Option testMode: demo 
+[11/15/23 20:34:33]: Configuration Version: D24266415A 
+[11/15/23 20:34:33]: Machine Number: ? 
+[11/15/23 20:34:33]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/15/23 20:34:33]: Arm serial number: ? 
+[11/15/23 20:34:33]: EP: s6.8 Feb  3 2010
+[11/15/23 20:34:33]: SCA: s6.8 Feb  3 2010
+[11/15/23 20:34:33]: PLC: s6.8 Feb  3 2010
+[11/15/23 20:34:33]: New profile : default
+[11/15/23 20:34:33]: COM-PC: create session 127.0.0.1 on port 56074 id=#61804976
+[11/15/23 20:34:34]: End of arm power shutdown phase.
+[11/15/23 20:34:35]: Unknown event:No answer
+[11/15/23 20:34:41]: MCP communication disconnected
+[11/15/23 20:34:43]: Mcp = TSimulated
+[11/15/23 20:34:43]: Unknown event:Communication established
+[11/15/23 20:34:43]: Working mode:manual.
+[11/15/23 20:34:58]: Settling arm power...
+[11/15/23 20:34:58]: Arm power settled.
+[11/15/23 20:34:58]: Unknown event:motion generator activated
+[11/15/23 20:35:05]: Level_3 application started
+[11/15/23 20:35:05]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/15/23 20:35:21]: Cannot complete move: destination is out of reach.(out of software joint limits)
+[11/15/23 20:35:21]: Cannot complete move: destination is out of reach.(out of software joint limits) (1)
+[11/15/23 20:35:21]: ERR 150 Robot stopped on a previous impossible movement (target out of reach, incorrect arm configuration, or singularity)
+[11/15/23 20:37:50]: -----------------------------------------------
+[11/15/23 20:37:50]: Logger started
+[11/15/23 20:37:54]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/15/23 20:37:54]: Cycle time set to 0.004s
+[11/15/23 20:37:54]: Simulation cycle time set to 0.1s
+[11/15/23 20:37:54]: Controller IP address could not be updated
+[11/15/23 20:37:54]: STARC : No STARC board detected on PCI.
+[11/15/23 20:37:54]: Power shutdown delay set to 0 s
+[11/15/23 20:37:54]: Gravity (x y z): 0         0        -9.81
+[11/15/23 20:37:54]: Power hour count = 0:00:00
+[11/15/23 20:37:54]: Mac Address = 00-45-e2-5c-9f-71
+[11/15/23 20:37:54]: COM-PC: server created on all interfaces [5653]
+[11/15/23 20:37:54]: VAL3: s6.8 Feb  9 2010
+[11/15/23 20:37:54]: Option testMode: demo 
+[11/15/23 20:37:54]: Configuration Version: D24266415A 
+[11/15/23 20:37:54]: Machine Number: ? 
+[11/15/23 20:37:54]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/15/23 20:37:54]: Arm serial number: ? 
+[11/15/23 20:37:54]: EP: s6.8 Feb  3 2010
+[11/15/23 20:37:54]: SCA: s6.8 Feb  3 2010
+[11/15/23 20:37:54]: PLC: s6.8 Feb  3 2010
+[11/15/23 20:37:54]: New profile : default
+[11/15/23 20:37:54]: COM-PC: create session 127.0.0.1 on port 56101 id=#60805848
+[11/15/23 20:37:55]: End of arm power shutdown phase.
+[11/15/23 20:37:56]: Unknown event:No answer
+[11/15/23 20:38:02]: MCP communication disconnected
+[11/15/23 20:38:04]: Mcp = TSimulated
+[11/15/23 20:38:04]: Unknown event:Communication established
+[11/15/23 20:38:04]: Working mode:manual.
+[11/15/23 20:38:14]: Settling arm power...
+[11/15/23 20:38:15]: Arm power settled.
+[11/15/23 20:38:15]: Unknown event:motion generator activated
+[11/15/23 20:38:19]: Level_3 application started
+[11/15/23 20:38:19]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/15/23 20:39:31]: Level_3 application stopped
+[11/15/23 20:40:09]: -----------------------------------------------
+[11/15/23 20:40:09]: Logger started
+[11/15/23 20:40:13]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/15/23 20:40:13]: Cycle time set to 0.004s
+[11/15/23 20:40:13]: Simulation cycle time set to 0.1s
+[11/15/23 20:40:13]: Controller IP address could not be updated
+[11/15/23 20:40:13]: STARC : No STARC board detected on PCI.
+[11/15/23 20:40:13]: Power shutdown delay set to 0 s
+[11/15/23 20:40:13]: Gravity (x y z): 0         0        -9.81
+[11/15/23 20:40:13]: Power hour count = 0:00:00
+[11/15/23 20:40:13]: Mac Address = 00-45-e2-5c-9f-71
+[11/15/23 20:40:13]: COM-PC: server created on all interfaces [5653]
+[11/15/23 20:40:13]: VAL3: s6.8 Feb  9 2010
+[11/15/23 20:40:13]: Option testMode: demo 
+[11/15/23 20:40:13]: Configuration Version: D24266415A 
+[11/15/23 20:40:13]: Machine Number: ? 
+[11/15/23 20:40:13]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/15/23 20:40:13]: Arm serial number: ? 
+[11/15/23 20:40:13]: EP: s6.8 Feb  3 2010
+[11/15/23 20:40:13]: SCA: s6.8 Feb  3 2010
+[11/15/23 20:40:13]: PLC: s6.8 Feb  3 2010
+[11/15/23 20:40:13]: New profile : default
+[11/15/23 20:40:14]: COM-PC: create session 127.0.0.1 on port 56125 id=#49070176
+[11/15/23 20:40:14]: End of arm power shutdown phase.
+[11/15/23 20:40:15]: Unknown event:No answer
+[11/15/23 20:40:21]: MCP communication disconnected
+[11/15/23 20:40:26]: Mcp = TSimulated
+[11/15/23 20:40:27]: Unknown event:Communication established
+[11/15/23 20:40:27]: Working mode:manual.
+[11/15/23 20:40:43]: Settling arm power...
+[11/15/23 20:40:44]: Arm power settled.
+[11/15/23 20:40:44]: Unknown event:motion generator activated
+[11/15/23 20:40:56]: Level_3 application started
+[11/15/23 20:40:56]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/15/23 20:43:09]: Arm power shutdown: working mode change.
+[11/15/23 20:43:09]: Arm power shutdown...
+[11/15/23 20:43:09]: Unknown event:motion generator desactivated
+[11/15/23 20:43:09]: Working mode:test.
+[11/15/23 20:43:10]: End of arm power shutdown phase.
+[11/15/23 20:43:13]: MCP communication disconnected
+[11/15/23 20:51:51]: -----------------------------------------------
+[11/15/23 20:51:51]: Logger started
+[11/15/23 20:51:55]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/15/23 20:51:55]: Cycle time set to 0.004s
+[11/15/23 20:51:55]: Simulation cycle time set to 0.1s
+[11/15/23 20:51:55]: Controller IP address could not be updated
+[11/15/23 20:51:55]: STARC : No STARC board detected on PCI.
+[11/15/23 20:51:55]: Power shutdown delay set to 0 s
+[11/15/23 20:51:55]: Gravity (x y z): 0         0        -9.81
+[11/15/23 20:51:55]: Power hour count = 0:00:00
+[11/15/23 20:51:55]: Mac Address = 00-45-e2-5c-9f-71
+[11/15/23 20:51:55]: COM-PC: server created on all interfaces [5653]
+[11/15/23 20:51:55]: VAL3: s6.8 Feb  9 2010
+[11/15/23 20:51:55]: Option testMode: demo 
+[11/15/23 20:51:55]: Configuration Version: D24266415A 
+[11/15/23 20:51:55]: Machine Number: ? 
+[11/15/23 20:51:55]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/15/23 20:51:55]: Arm serial number: ? 
+[11/15/23 20:51:55]: EP: s6.8 Feb  3 2010
+[11/15/23 20:51:55]: SCA: s6.8 Feb  3 2010
+[11/15/23 20:51:55]: PLC: s6.8 Feb  3 2010
+[11/15/23 20:51:55]: New profile : default
+[11/15/23 20:51:56]: COM-PC: create session 127.0.0.1 on port 56224 id=#61125432
+[11/15/23 20:51:56]: End of arm power shutdown phase.
+[11/15/23 20:51:57]: Unknown event:No answer
+[11/15/23 20:52:04]: MCP communication disconnected
+[11/15/23 20:52:05]: Mcp = TSimulated
+[11/15/23 20:52:05]: Unknown event:Communication established
+[11/15/23 20:52:06]: Working mode:manual.
+[11/15/23 20:52:16]: Settling arm power...
+[11/15/23 20:52:17]: Arm power settled.
+[11/15/23 20:52:17]: Unknown event:motion generator activated
+[11/15/23 20:52:21]: Level_3 application started
+[11/15/23 20:52:21]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/15/23 20:52:33]: ERR 154 Invalid movement command: invalid destination point or mdesc.
+[11/15/23 20:56:53]: -----------------------------------------------
+[11/15/23 20:56:53]: Logger started
+[11/15/23 20:56:57]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/15/23 20:56:57]: Cycle time set to 0.004s
+[11/15/23 20:56:57]: Simulation cycle time set to 0.1s
+[11/15/23 20:56:57]: Controller IP address could not be updated
+[11/15/23 20:56:57]: STARC : No STARC board detected on PCI.
+[11/15/23 20:56:57]: Power shutdown delay set to 0 s
+[11/15/23 20:56:57]: Gravity (x y z): 0         0        -9.81
+[11/15/23 20:56:57]: Power hour count = 0:00:00
+[11/15/23 20:56:57]: Mac Address = 00-45-e2-5c-9f-71
+[11/15/23 20:56:57]: COM-PC: server created on all interfaces [5653]
+[11/15/23 20:56:57]: VAL3: s6.8 Feb  9 2010
+[11/15/23 20:56:57]: Option testMode: demo 
+[11/15/23 20:56:57]: Configuration Version: D24266415A 
+[11/15/23 20:56:57]: Machine Number: ? 
+[11/15/23 20:56:57]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/15/23 20:56:57]: Arm serial number: ? 
+[11/15/23 20:56:57]: EP: s6.8 Feb  3 2010
+[11/15/23 20:56:57]: SCA: s6.8 Feb  3 2010
+[11/15/23 20:56:57]: PLC: s6.8 Feb  3 2010
+[11/15/23 20:56:57]: New profile : default
+[11/15/23 20:56:58]: COM-PC: create session 127.0.0.1 on port 56254 id=#61265056
+[11/15/23 20:56:58]: End of arm power shutdown phase.
+[11/15/23 20:56:59]: Unknown event:No answer
+[11/15/23 20:57:07]: MCP communication disconnected
+[11/15/23 20:57:08]: Mcp = TSimulated
+[11/15/23 20:57:08]: Unknown event:Communication established
+[11/15/23 20:57:08]: Working mode:manual.
+[11/15/23 20:57:15]: Settling arm power...
+[11/15/23 20:57:16]: Arm power settled.
+[11/15/23 20:57:16]: Unknown event:motion generator activated
+[11/15/23 20:57:22]: Level_3 application started
+[11/15/23 20:57:22]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/15/23 20:58:24]: ERR 20 Access to an array with index larger than the array's size.
+[11/16/23 12:13:34]: -----------------------------------------------
+[11/16/23 12:13:34]: Logger started
+[11/16/23 12:13:39]: Unknown event:Communication established
+[11/16/23 12:13:39]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/16/23 12:13:39]: Cycle time set to 0.004s
+[11/16/23 12:13:39]: Simulation cycle time set to 0.1s
+[11/16/23 12:13:39]: Controller IP address could not be updated
+[11/16/23 12:13:39]: STARC : No STARC board detected on PCI.
+[11/16/23 12:13:39]: Mcp = TSimulated
+[11/16/23 12:13:39]: Power shutdown delay set to 0 s
+[11/16/23 12:13:39]: Gravity (x y z): 0         0        -9.81
+[11/16/23 12:13:39]: Power hour count = 0:00:00
+[11/16/23 12:13:39]: Mac Address = 00-45-e2-5c-9f-71
+[11/16/23 12:13:39]: Working mode:invalid.
+[11/16/23 12:13:39]: COM-PC: server created on all interfaces [5653]
+[11/16/23 12:13:39]: VAL3: s6.8 Feb  9 2010
+[11/16/23 12:13:39]: Option testMode: demo 
+[11/16/23 12:13:39]: Configuration Version: D24266415A 
+[11/16/23 12:13:39]: Machine Number: ? 
+[11/16/23 12:13:39]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/16/23 12:13:39]: Arm serial number: ? 
+[11/16/23 12:13:39]: EP: s6.8 Feb  3 2010
+[11/16/23 12:13:39]: SCA: s6.8 Feb  3 2010
+[11/16/23 12:13:39]: PLC: s6.8 Feb  3 2010
+[11/16/23 12:13:39]: New profile : default
+[11/16/23 12:13:40]: COM-PC: create session 127.0.0.1 on port 57886 id=#61454160
+[11/16/23 12:13:40]: End of arm power shutdown phase.
+[11/16/23 12:13:40]: Working mode:manual.
+[11/16/23 12:13:59]: COM-PC: destroy session 127.0.0.1 on port 57886 id=#61454160
+[11/16/23 12:14:08]: COM-PC: create session 127.0.0.1 on port 57898 id=#61454992
+[11/16/23 12:14:23]: Cannot apply arm power: release & press deadman to enable arm power request.
+[11/16/23 12:14:33]: Cannot apply arm power: release & press deadman to enable arm power request. (1)
+[11/16/23 12:14:41]: Settling arm power...
+[11/16/23 12:14:41]: Arm power settled.
+[11/16/23 12:14:42]: Unknown event:motion generator activated
+[11/16/23 12:14:47]: Level_3 application started
+[11/16/23 12:14:47]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/16/23 12:16:19]: ERR 20 Access to an array with index larger than the array's size.
+[11/16/23 12:16:38]: Arm power shutdown: working mode change.
+[11/16/23 12:16:38]: Arm power shutdown...
+[11/16/23 12:16:38]: Unknown event:motion generator desactivated
+[11/16/23 12:16:39]: Working mode:test.
+[11/16/23 12:16:40]: End of arm power shutdown phase.
+[11/16/23 12:16:41]: Saving controller context...
+[11/16/23 12:16:41]: Controller temperature: 28°C
+[11/16/23 12:16:41]: CPU temperature: 28°C
+[11/16/23 13:08:11]: -----------------------------------------------
+[11/16/23 13:08:11]: Logger started
+[11/16/23 13:08:15]: Unknown event:Communication established
+[11/16/23 13:08:15]: CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[11/16/23 13:08:15]: Cycle time set to 0.004s
+[11/16/23 13:08:15]: Simulation cycle time set to 0.1s
+[11/16/23 13:08:15]: Controller IP address could not be updated
+[11/16/23 13:08:15]: STARC : No STARC board detected on PCI.
+[11/16/23 13:08:15]: Mcp = TSimulated
+[11/16/23 13:08:15]: Power shutdown delay set to 0 s
+[11/16/23 13:08:15]: Gravity (x y z): 0         0        -9.81
+[11/16/23 13:08:15]: Power hour count = 0:00:00
+[11/16/23 13:08:15]: Mac Address = fc-34-97-b5-ab-93
+[11/16/23 13:08:15]: COM-PC: server created on all interfaces [5653]
+[11/16/23 13:08:15]: VAL3: s6.8 Feb  9 2010
+[11/16/23 13:08:15]: Option testMode: demo 
+[11/16/23 13:08:15]: Configuration Version: D24266415A 
+[11/16/23 13:08:15]: Machine Number: ? 
+[11/16/23 13:08:15]: Arm: ts60-S1-D25-L200-wall-R1 wall
+[11/16/23 13:08:15]: Arm serial number: ? 
+[11/16/23 13:08:15]: EP: s6.8 Feb  3 2010
+[11/16/23 13:08:15]: SCA: s6.8 Feb  3 2010
+[11/16/23 13:08:15]: PLC: s6.8 Feb  3 2010
+[11/16/23 13:08:15]: New profile : default
+[11/16/23 13:08:16]: Working mode:test.
+[11/16/23 13:08:16]: End of arm power shutdown phase.
+[11/16/23 13:08:17]: COM-PC: create session 127.0.0.1 on port 59959 id=#50444056
+[11/16/23 13:08:31]: Settling arm power...
+[11/16/23 13:08:31]: Arm power settled.
+[11/16/23 13:08:31]: Unknown event:motion generator activated
+[11/16/23 13:08:34]: Level_3 application started
+[11/16/23 13:08:34]: Unknown event:Enable or disable request refused because the controller is not in the good working mode
+[11/16/23 13:08:51]: Cannot complete move: destination is out of reach.(out of software joint limits)
+[11/16/23 13:08:51]: Cannot complete move: destination is out of reach.(out of software joint limits) (1)
+[11/16/23 13:08:51]: ERR 150 Robot stopped on a previous impossible movement (target out of reach, incorrect arm configuration, or singularity)
