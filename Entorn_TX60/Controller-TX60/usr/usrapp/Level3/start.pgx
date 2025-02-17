@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<programList xmlns="ProgramNameSpace">
+  <program name="start" public="false">
+    <description />
+    <paramSection />
+    <localSection />
+    <source>
+      <code>begin
+  userPage()
+  
+  // Clearing the user page
+  cls()
+  putln("Start the program")
+  
+  // Enable robot power
+  enablePower()
+  
+  // Set maximum speed to 30%
+  mNomSpeed.vel=30
+  
+  // Linking the io to variables
+  dioLink(tool_val[0],io:bOut0)
+  dioLink(dispensor[0],io:bOut10)
+  dioLink(presenceSensor[0],io:bIn0)
+  
+  // Setting the gripper and actuator to open
+  tool_val[0]=false
+  dispensor[0]=false
+  
+  // Open the tool
+  open(tool0[0])
+  open(tool0[1])
+  
+  // Starting the Actual Pick and Place Operation
+  // Start the loop
+  for i=0 to 3 step 1
+    // Push the cylinder out from the cylinder dispenser
+    dispensor[0]=true
+    delay(2)
+    dispensor[0]=false
+    // Move the tool on top of the cylinder pickup position
+    movej(appro(cylinDispensor[0],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    // Approach the cylinder pickup position and pick up the cylinder
+    movel(cylinDispensor[0],tool0[0],mNomSpeed)
+    waitEndMove()
+    tool_val[0]=true
+    close(tool0[0])
+    // Move the tool to the top of the cylinder pickup position to avoid collission
+    delay(0.5)
+    movel(appro(cylinDispensor[0],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    putln("Cylinder dispensor reached, picked the cylinder.")
+    // Move to the assembly position
+    movej(appro(assembly[0],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    movel(assembly[0],tool0[0],mNomSpeed)
+    waitEndMove()
+    tool_val[0]=false
+    // Drop the cylinder
+    open(tool0[0])
+    delay(0.5)
+    movel(appro(assembly[0],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    putln("Assembly station reached, placed the cylinder.")
+    breakVal[0]=0
+    // Move to the top of the piston pickup position
+    movej(appro(pistonSense[0],{0,0,-100,0,0,0}),tool0[1],mNomSpeed)
+    waitEndMove()
+    delay(0.5)
+    // Iterating over all the possible piston positions unless a piston is detected
+    putln("Waiting for a piston to be present at a location.")
+    while breakVal[0]==0
+      // Loop over all the piston pickup positions
+      for j=0 to 3 step 1
+        if breakVal[0]==0
+          // Move to the jth piston position
+          movej(pistonSense[j],tool0[1],mNomSpeed)
+          waitEndMove()
+          delay(1)
+          // If piston is detected pick it up
+          if presenceSensor[0]==true
+            // Move to the top of the piston pickup position
+            movej(appro(pistonSense[j],{0,0,-100,0,0,0}),tool0[1],mNomSpeed)
+            waitEndMove()
+            // Move to the piston pickup position
+            movej(appro(pistons[j],{0,0,-100,0,0,0}),tool0[1],mNomSpeed)
+            waitEndMove()
+            movel(pistons[j],tool0[1],mNomSpeed)
+            waitEndMove()
+            // Close the tool to pickup the piston
+            close(tool0[0])
+            delay(0.5)
+            // After picking up the piston move to the top of the piston position to avoid collision
+            movel(appro(pistons[j],{0,0,-100,0,0,0}),tool0[1],mNomSpeed)
+            waitEndMove()
+            putln("piston location reached, picked the piston.")
+            breakVal[0]=1
+          endIf
+        endIf
+      endFor
+    endWhile
+    breakVal[0]=0
+    // Move to the piston drop off position
+    movej(appro(assembly[1],{0,0,-100,0,0,0}),tool0[1],mNomSpeed)
+    waitEndMove()
+    movel(assembly[1],tool0[1],mNomSpeed)
+    waitEndMove()
+    // Open the tool to place the piston
+    open(tool0[0])
+    delay(0.5)
+    movel(appro(assembly[1],{0,0,-250,0,0,0}),tool0[1],mNomSpeed)
+    waitEndMove()
+    putln("Assembly station reached, Placed the piston.")
+    //Change tool
+    movej(appro(assembly[0],{0,0,-250,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    putln("Changed tool 1 -&gt; 0")
+    // Move on top of the assembly position
+    movel(assembly[0],tool0[0],mNomSpeed)
+    waitEndMove()
+    tool_val[0]=true
+    // Close the tool to pickup the assembled part
+    close(tool0[0])
+    delay(0.5)
+    movel(appro(assembly[0],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    putln("Assembled product picked.")
+    // Move on top of the assembled matrix drop off position
+    movej(appro(matrix[i],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    movel(matrix[i],tool0[0],mNomSpeed)
+    waitEndMove()
+    tool_val[0]=false
+    // Place Assembled Product
+    open(tool0[0])
+    delay(0.5)
+    movel(appro(matrix[i],{0,0,-100,0,0,0}),tool0[0],mNomSpeed)
+    waitEndMove()
+    putln("Assembled product palced at the assembled matrix.")
+  endFor
+end
+
+      </code>
+    </source>
+  </program>
+</programList>

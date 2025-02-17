@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CellUserOptions>
+  <Controller Name="Controller-TX60">
+    <Application>Disk://Level3/Level3.pjx</Application>
+  </Controller>
+  <Option Name="DataTreeView">
+    <Nodes>
+      <Node Path="Entorn_TX60" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Level3#Level3.pjx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Level3#Level3.pjx\dio" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Level3#Level3.pjx\jointRx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Level3#Level3.pjx\mdesc" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Level3#Level3.pjx\num" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Level3#Level3.pjx\pointRx" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Level3#Level3.pjx\tool" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="CellExplorer">
+    <Nodes>
+      <Node Path="Entorn_TX60" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60" IsExpanded="true" />
+      <Node Path="Entorn_TX60\Controller-TX60\Disk:##Level3#Level3.pjx" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="GeometryView">
+    <Nodes>
+      <Node Path="Entorn_TX60" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="Breakpoints">
+    <Breakpoints />
+  </Option>
+  <Option Name="IOsControlPanel">
+    <Ios />
+  </Option>
+  <Option Name="Watches">
+    <Watches />
+  </Option>
+  <Option Name="ExpressionWatches">
+    <ExpressionWatches>
+      <ExpressionWatch></ExpressionWatch>
+    </ExpressionWatches>
+  </Option>
+  <Option Name="3DView">
+    <_3DView Visible="true" />
+  </Option>
+  <Option Name="SynchronizerMode">
+    <Synchronizers>
+      <Synchronizer Controller="Controller-TX60" Mode="Emulator" />
+    </Synchronizers>
+  </Option>
+  <Option Name="Safety">
+    <Safeties />
+  </Option>
+</CellUserOptions>
